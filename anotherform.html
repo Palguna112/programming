@@ -1,0 +1,135 @@
+<h1>Student Course Regestration</h1>
+<form>
+    <fieldset>
+        <legend>Personal-details </legend>
+        <table>
+            <tr>
+                <td>
+                    <label>First Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="FN" placeholder="Ex:Rohith"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Sur Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="SN" placeholder="Ex:Ravinder"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Mobile:</label>
+                </td>
+                <td>
+                    <input type="number" name="mob" placeholder="Ex:7382454814"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="emIL" placeholder="Ex:rohitRavinder112@gmail.com"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="pwd"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Confoirm Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="cpwd"><br>
+                </td>
+            </tr>
+                <td>
+                    <label>DOB:</label>
+                </td>
+                <td>
+                    <input type="date" name="dob"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                    <td>
+                        <input type="radio" name="MALE" value="M">Male 
+                        <input type="radio" name="FEMALE" value="F">Female
+                        <input type="radio" name="CUSTOM" value="C">Custom<br> 
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Select Country:</label>
+                </td>
+                <td>
+                    <select name="country">
+                        <option value="india">INDIA</option>
+                        <option value="usa">USA</option>
+                        <option value="china">CHAINA</option>
+                        <option value="japan">JAPAN</option>
+                        <option value="russia">RUSSIA</option>
+                        <option value="srilanka">SRI LANKA</option>
+                        <option value="germany">GERMANY</option>
+                    </select><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Upload Picture:</label>
+                </td>
+                <td>
+                    <input type="file" name="file"><br>
+                </td>
+            </tr>
+        </table>
+        <input type="reset">
+    </fieldset>
+    <fieldset>
+        <legend>Course-Details</legend><br>
+        <table>
+            <tr>
+                <td>
+                    <label>Select Course:</label>
+                </td>
+                <td>
+                    <select name="course">
+                        <option value="fswdf">Full Stack Web Development Foundation</option>
+                        <option value="fswda">Full Stack Web Development Advance</option>
+                        <option value="fswdu">Full Stack Web Development Ultimate</option>
+                    </select><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Delivery Mode:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="mode" value="on">Online
+                    <input type="checkbox" name="mode" value="Off">Offline <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Comments:</label>
+                </td>
+                <td>
+                    <textarea name="commments" col="30" rows="4"></textarea><br><br>
+                </td>
+            </tr>
+        </table>
+       
+        </fieldset> <br><br>
+        <input type="Submit" >
+
+</form>
