@@ -1,0 +1,52 @@
+<form>
+    <h1>Student Regestration Form</h1>
+    <fieldset>
+        <legend>Personal-details</legend> <br>
+    <label>FirstName:</label>
+    <input type="text" name="FN" placeholder="Ex:Rohith"><br>
+    <label>SurName:</label>
+    <input type="text" name="SN" placeholder="Ex:Ravinder"><br>
+    <label>Mobile:</label>
+    <input type="number" name="mob" placeholder="Ex:7382454814"><br>
+    <label>Email:</label>
+    <input type="email" name="Email" placeholder="Ex:rohith112@gmail.Com"><br>
+    <label>Password</label>
+    <input type="password" name="pwd" ><br>
+    <label>Confoirm Password:</label>
+    <input type="password" name="cpwd"><br>
+    <label>DOB:</label>
+    <input type="date"  name="DOB"><br>
+    <label>Gender:</label>
+    <input type="radio" name="MALE" value="M">Male 
+    <input type="radio" name="FEMALE" value="F">Female
+    <input type="radio" name="CUSTOM" value="C">Custom<br> 
+    <label>Select Country:</label>
+    <select name="country">
+        <option value="india">INDIA</option>
+        <option value="usa">USA</option>
+        <option value="china">CHAINA</option>
+        <option value="japan">JAPAN</option>
+        <option value="russia">RUSSIA</option>
+        <option value="srilanka">SRI LANKA</option>
+        <option value="germany">GERMANY</option>
+    </select><br>
+    <label>Upload Picture:</label>
+    <input type="file" name="file"><br>
+    <input type="reset">
+    </fieldset>
+    <fieldset>
+    <legend>Course-Details</legend><br>
+    <label>Select-Course</label><br>
+    <select name="course">
+        <option value="fswdf">Full Stack Web Development Foundation</option>
+        <option value="fswda">Full Stack Web Development Advance</option>
+        <option value="fswdu">Full Stack Web Development Ultimate</option>
+    </select><br>
+    <label>Delivery Mode:</label>
+    <input type="checkbox" name="mode" value="on">Online
+    <input type="checkbox" name="mode" value="Off">Offline <br>
+    <label>Comments:</label><br>
+    <textarea name="commments" col="40" rows="4"></textarea><br><br>
+    <input type="Submit">
+    </fieldset>
+</form>
